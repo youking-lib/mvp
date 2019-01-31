@@ -1,0 +1,25 @@
+{
+  "name": "mvp-construct",
+  "version": "1.0.0",
+  "description": "demo of the mvp project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nicedog dev",
+    "start": "nicedog dev",
+    "prod": "nicedog prod"
+  },
+  "keywords": [
+    "mvp"
+  ],
+  "author": "whistleyong",
+  "license": "MIT",
+  "dependencies": {
+    "immer": "^1.12.1",
+    "snabbdom": "^0.7.3",
+    "snabbdom-jsx": "^0.4.2"
+  },
+  "devDependencies": {
+    "nicedog": "^1.0.9"
+  }
+}
